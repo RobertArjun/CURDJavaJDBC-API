@@ -18,9 +18,9 @@ public class JDBCConnection {
 	String deleteQuery = "DELETE from country where country_code = ?";
 
 	JDBCConnection() {
-		URL = "jdbc:mysql://localhost:3306/wgrt?useSSL=false";
+		URL = "jdbc:mysql://localhost:3306/userDB?useSSL=false";
 		USER = "root";
-		PASSWORD = "syntel123$";
+		PASSWORD = "root$";
 
 	}
 
